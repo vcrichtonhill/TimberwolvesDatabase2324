@@ -96,65 +96,17 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="player_id1" id="51546A16-CD3B-70CC-74CB-DB6263621C1C">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:19:16 UTC</createdTime>
-<generatorID>E95F0F2B-09E6-7D71-F005-F72EDA0AD9D9</generatorID>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Player_player_id" id="4F11C043-5D4F-0CDF-B819-617B2286FDD6">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:19:55 UTC</createdTime>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DD4ADD68-7454-E818-AA5C-C81F817C42B2" referredColumn="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="02B0BA52-827E-8679-6F0A-10F249185B51" name="PlayerProfile__IDXv1">
+<ind_PK_UK id="0B931E5D-DA56-9673-F574-A0B4A9B14913" name="PlayerProfile_PK">
 <createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:19:16 UTC</createdTime>
+<createdTime>2024-11-05 00:39:15 UTC</createdTime>
 <ownerDesignName>finalprojectmodels</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="51546A16-CD3B-70CC-74CB-DB6263621C1C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="74F1539C-5BF6-7300-8707-ED4103B6279B" name="PlayerProfile__IDXv2">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:27:35 UTC</createdTime>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="4F11C043-5D4F-0CDF-B819-617B2286FDD6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0D1DC81F-6090-D0CE-BC43-1468C6DC753D" name="PlayerProfile_Player_FK">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:17:11 UTC</createdTime>
-<generatorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</generatorID>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4F11C043-5D4F-0CDF-B819-617B2286FDD6"/>
+<colUsage columnID="D623358F-35CC-B5E4-4DA3-1621C6AD4831"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

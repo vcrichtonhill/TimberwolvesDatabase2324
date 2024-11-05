@@ -70,19 +70,6 @@
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Games_ID" id="A114F859-B1D8-BA68-027A-75298BE9DFA7">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:17:11 UTC</createdTime>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="53505D98-5898-D6AB-E73F-B1D714D93BAB" name="Games_PK">
@@ -92,7 +79,7 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="A114F859-B1D8-BA68-027A-75298BE9DFA7"/>
+<colUsage columnID="E737E8E4-FBDE-524C-3A0A-AB477CBB855D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

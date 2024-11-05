@@ -18,6 +18,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8006D0E1-92A5-21EB-59FD-EC45F04F16AF" referredColumn="D623358F-35CC-B5E4-4DA3-1621C6AD4831"/>
+</associations>
 </Column>
 <Column name="name" id="9B3724A3-1426-4318-7FDD-6953ACD23659">
 <createdBy>vcrich</createdBy>
@@ -56,12 +59,11 @@
 <colUsage columnID="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B79E5B3C-6A16-4A70-73A7-7A28883E87F6" name="Player_player_id_UN">
+<ind_PK_UK id="BF8E21D2-0948-B792-8CC8-42167882D637" name="Player_PlayerProfile_FK">
 <createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:19:16 UTC</createdTime>
-<generatorID>263FC803-F39C-B59C-CCBD-DE786DC69D01</generatorID>
+<createdTime>2024-11-05 00:47:08 UTC</createdTime>
 <ownerDesignName>finalprojectmodels</ownerDesignName>
-<indexState>Unique Constraint</indexState>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
