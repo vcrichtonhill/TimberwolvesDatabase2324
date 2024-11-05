@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1AD1161-A1B3-A053-A53A-2A18CA04D3D0" name="Player">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>60FDDAD5-68F4-486A-DE24-412A487619BB</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="player_id" id="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>93F87064-7EC0-5F69-AF6C-2C1CBF161301</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="9B3724A3-1426-4318-7FDD-6953ACD23659">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>29B88E50-A402-C08C-A3E3-12DF21DAE349</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position" id="69D81D11-AD8D-DB47-A460-3612BB43171C">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>B1689747-C559-BDEC-D665-2F5E08C826F7</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B458252D-2B1A-6755-6139-FD2C11D29F82" name="Player_PK">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B79E5B3C-6A16-4A70-73A7-7A28883E87F6" name="Player_player_id_UN">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:16 UTC</createdTime>
+<generatorID>263FC803-F39C-B59C-CCBD-DE786DC69D01</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

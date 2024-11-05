@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA958560-491F-A158-3D32-6320E49DB0A8" name="PlayerStats">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:12 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stat_id" id="38574296-B6C3-4A20-D1E1-92B86143FC92">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:23 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="player_id" id="963AB612-E6CD-DC60-68E3-BC74A7D63895">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:28 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="game_id" id="47240F4D-3DD2-D308-2118-B7A78D463CA7">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:31 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="points" id="7B594705-7C84-A1B5-A181-81CB451E5EE0">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:35 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rebounds" id="86087816-4A51-61FF-3F1C-98B4315A7375">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:38 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assists" id="91E036E3-575B-04A1-CA83-EBA3B68132F4">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:49:41 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

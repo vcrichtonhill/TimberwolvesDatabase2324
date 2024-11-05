@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA761E5F-AABD-42F0-7A8F-B69D3E6C6F1D" name="Games">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>93D943A8-6C64-3D26-3BEF-01247F8F79FC</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_id" id="E737E8E4-FBDE-524C-3A0A-AB477CBB855D">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>0FE7DC17-8E63-CEED-63D7-01564DC8649D</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="550665C5-98AF-CFF6-F9C3-909FBD72243C">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>033ADD24-EAD5-A0B1-F8F2-E34C2EB14933</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opponent" id="A6A093F5-1A75-0EF9-84CF-EFB7B3D5240E">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>D58B4077-07AC-F627-A4C7-DE03BDAAFFB1</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="CE853AF7-AFD8-B3C6-D4FE-A1D042134FD7">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>FA6756F2-B18A-C2EF-DE0D-4B3795B2AFA5</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="result" id="F4F2E5D9-3E7E-AB80-88C7-39968E887B78">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>463AC56D-CC23-33B9-CBCD-EB899F02EC8A</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Games_ID" id="A114F859-B1D8-BA68-027A-75298BE9DFA7">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53505D98-5898-D6AB-E73F-B1D714D93BAB" name="Games_PK">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A114F859-B1D8-BA68-027A-75298BE9DFA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EE6B66D-A373-D8F7-041F-B4C938ED23DA" name="PlayerStats">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>EA958560-491F-A158-3D32-6320E49DB0A8</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stat_id" id="62DD09F7-0130-BF33-EEEB-8690297536B2">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>38574296-B6C3-4A20-D1E1-92B86143FC92</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="player_id" id="17A5ECAB-9A6F-5173-D0D1-01B7013F8A19">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>963AB612-E6CD-DC60-68E3-BC74A7D63895</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="35B286B4-021B-A8F7-1780-9F0695A060B5">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>47240F4D-3DD2-D308-2118-B7A78D463CA7</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="points" id="170664E7-424D-5BEB-2E70-09ADB94B4028">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>7B594705-7C84-A1B5-A181-81CB451E5EE0</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rebounds" id="DCC74939-3230-CA0A-30AB-FA8FB355EB3D">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>86087816-4A51-61FF-3F1C-98B4315A7375</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assists" id="382C2B6E-F554-F76E-BD4E-79E6C4C78EF4">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>91E036E3-575B-04A1-CA83-EBA3B68132F4</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Games_Games_ID" id="A1E245EB-B897-AF34-0E9F-BE84D3D1B3FC">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC6E6C64-E844-6235-B635-F44FFE7BC959" referredColumn="A114F859-B1D8-BA68-027A-75298BE9DFA7"/>
+</associations>
+</Column>
+<Column name="player_id1" id="AB4B9F3D-AC9B-8DCB-2F6A-AE59C9C9EDBE">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:16 UTC</createdTime>
+<generatorID>DF96697A-6F8A-5A4C-681F-3278CCE19611</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_player_id" id="F260E9B4-69DB-A1B2-4826-767334EA47D8">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:55 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A777204C-2212-3709-7F1B-BF1CAEDCAD55" referredColumn="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="678E6BB1-969F-9165-A701-86D53B951F0A" name="PlayerStats_Player_FK">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>620630B3-ED3B-DB5C-889B-D0BF065EDC68</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F260E9B4-69DB-A1B2-4826-767334EA47D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC01823-5E91-8748-A46E-87AA9C448A49" name="PlayerStats_Games_FK">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>C41C1F07-5342-4DB3-1E98-5E51E5E34597</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1E245EB-B897-AF34-0E9F-BE84D3D1B3FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

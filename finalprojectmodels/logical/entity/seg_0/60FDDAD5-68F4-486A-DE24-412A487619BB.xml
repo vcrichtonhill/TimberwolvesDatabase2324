@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60FDDAD5-68F4-486A-DE24-412A487619BB" name="Player">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:05:32 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="player_id" id="93F87064-7EC0-5F69-AF6C-2C1CBF161301">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:06:19 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="29B88E50-A402-C08C-A3E3-12DF21DAE349">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:06:30 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="B1689747-C559-BDEC-D665-2F5E08C826F7">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-04 17:06:37 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

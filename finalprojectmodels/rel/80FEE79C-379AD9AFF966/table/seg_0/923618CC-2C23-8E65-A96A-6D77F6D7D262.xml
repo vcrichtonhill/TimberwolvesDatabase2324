@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="923618CC-2C23-8E65-A96A-6D77F6D7D262" name="PlayerProfile">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:10 UTC</createdTime>
+<generatorID>FC367053-F740-ED77-FF08-160CCC0309ED</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="player_id" id="D623358F-35CC-B5E4-4DA3-1621C6AD4831">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>6E0B3572-9EF8-8312-76EE-3C2AFC06C541</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="3DB9F6C9-DF8F-933F-4435-66069847164C">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>4D3CB613-D50C-585B-8B27-D89CDEA7530F</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nationality" id="01C765EE-791F-23F3-1321-9D6C00C28E95">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>946C29C8-7BF6-A2A2-83EB-7E2FF16F36D8</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hometown" id="5635A259-F857-B8DC-E592-D10B359B2CA1">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>BDBE9DA4-65E2-1C36-72F0-01495A9D5F6B</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="draft_year" id="F13B8333-7767-B364-E561-700C6597EE4E">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>B69C0C68-6057-4212-8ECB-308BF59DA529</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="college" id="4989E116-237B-2B05-811E-5BE81A0DAA7A">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>BD4400C0-2DEC-68CB-D97C-64AD7F35EEA5</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="handedness" id="9517750A-EB20-7BB9-DF26-9383EFD5F477">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>BC041994-1362-137D-C4DF-78C95A580B5F</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="player_id1" id="51546A16-CD3B-70CC-74CB-DB6263621C1C">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:16 UTC</createdTime>
+<generatorID>E95F0F2B-09E6-7D71-F005-F72EDA0AD9D9</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_player_id" id="4F11C043-5D4F-0CDF-B819-617B2286FDD6">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:55 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD4ADD68-7454-E818-AA5C-C81F817C42B2" referredColumn="9C3D5491-4CB6-DB7D-B62C-5256141A7A6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02B0BA52-827E-8679-6F0A-10F249185B51" name="PlayerProfile__IDXv1">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:19:16 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="51546A16-CD3B-70CC-74CB-DB6263621C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74F1539C-5BF6-7300-8707-ED4103B6279B" name="PlayerProfile__IDXv2">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:27:35 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4F11C043-5D4F-0CDF-B819-617B2286FDD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D1DC81F-6090-D0CE-BC43-1468C6DC753D" name="PlayerProfile_Player_FK">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:17:11 UTC</createdTime>
+<generatorID>6A8B2B03-5200-4ADF-495B-21F8B5A720EE</generatorID>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F11C043-5D4F-0CDF-B819-617B2286FDD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

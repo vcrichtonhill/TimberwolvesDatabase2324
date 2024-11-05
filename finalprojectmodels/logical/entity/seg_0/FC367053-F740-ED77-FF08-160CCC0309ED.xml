@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC367053-F740-ED77-FF08-160CCC0309ED" name="PlayerProfile">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:07:24 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="player_id" id="6E0B3572-9EF8-8312-76EE-3C2AFC06C541">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:07:43 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="4D3CB613-D50C-585B-8B27-D89CDEA7530F">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:07:47 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationality" id="946C29C8-7BF6-A2A2-83EB-7E2FF16F36D8">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:11:38 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hometown" id="BDBE9DA4-65E2-1C36-72F0-01495A9D5F6B">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:13:23 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="draft_year" id="B69C0C68-6057-4212-8ECB-308BF59DA529">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:09:42 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="college" id="BD4400C0-2DEC-68CB-D97C-64AD7F35EEA5">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:13:16 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="handedness" id="BC041994-1362-137D-C4DF-78C95A580B5F">
+<createdBy>vcrich</createdBy>
+<createdTime>2024-11-05 00:15:56 UTC</createdTime>
+<ownerDesignName>finalprojectmodels</ownerDesignName>
+<engineerTo>
+<item key="80FEE79C-31ED-F723-858A-379AD9AFF966" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
