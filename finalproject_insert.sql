@@ -202,7 +202,4 @@ INSERT INTO GAMES (GAME_ID, GAME_DATE, OPPONENT, LOCATION, RESULT) VALUES (81,to
 --Row 82
 INSERT INTO GAMES (GAME_ID, GAME_DATE, OPPONENT, LOCATION, RESULT) VALUES (82,to_date('2024-04-14', 'YYYY-MM-DD'),'PHO','HOME','L');
 
-
-select * from player;
-
-select * from playerprofile;
+-- Player Stats
