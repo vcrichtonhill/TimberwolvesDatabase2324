@@ -40,7 +40,6 @@ CREATE TABLE playerprofile (
 ALTER TABLE playerprofile ADD CONSTRAINT playerprofile_pk PRIMARY KEY ( player_id );
 
 CREATE TABLE playerstats (
-    stat_id   INTEGER NOT NULL,
     player_id INTEGER NOT NULL,
     game_id   INTEGER NOT NULL,
     points    INTEGER,
@@ -48,7 +47,7 @@ CREATE TABLE playerstats (
     assists   INTEGER
 );
 
-ALTER TABLE playerstats ADD CONSTRAINT playerstats_pk PRIMARY KEY ( stat_id );
+ALTER TABLE playerstats ADD CONSTRAINT playerstats_pk PRIMARY KEY ( player_id, game_id );
 
 ALTER TABLE player
     ADD CONSTRAINT player_playerprofile_fk FOREIGN KEY ( player_id )

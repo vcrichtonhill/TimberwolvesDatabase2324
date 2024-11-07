@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="date" id="550665C5-98AF-CFF6-F9C3-909FBD72243C">
+<Column name="game_date" id="550665C5-98AF-CFF6-F9C3-909FBD72243C">
 <createdBy>vcrich</createdBy>
 <createdTime>2024-11-05 00:17:10 UTC</createdTime>
 <generatorID>033ADD24-EAD5-A0B1-F8F2-E34C2EB14933</generatorID>
