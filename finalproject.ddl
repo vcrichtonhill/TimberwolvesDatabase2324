@@ -29,7 +29,7 @@ ALTER TABLE player ADD CONSTRAINT player_pk PRIMARY KEY ( player_id );
 
 CREATE TABLE playerprofile (
     player_id   INTEGER NOT NULL,
-    height      VARCHAR2(4),
+    height      VARCHAR2(5),
     nickname    VARCHAR2(50),
     hometown    VARCHAR2(20),
     draft_year  INTEGER,
