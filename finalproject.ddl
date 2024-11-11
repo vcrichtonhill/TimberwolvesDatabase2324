@@ -27,6 +27,8 @@ CREATE TABLE player (
 
 ALTER TABLE player ADD CONSTRAINT player_pk PRIMARY KEY ( player_id );
 
+
+
 CREATE TABLE playerprofile (
     player_id   INTEGER NOT NULL,
     height      VARCHAR2(5),
@@ -37,6 +39,9 @@ CREATE TABLE playerprofile (
 );
 
 ALTER TABLE playerprofile ADD CONSTRAINT playerprofile_pk PRIMARY KEY ( player_id );
+ALTER TABLE playerprofile ADD CONSTRAINT playerprofile_fk FOREIGN KEY ( player_id ) 
+    REFERENCES player ( player_id ) ON DELETE CASCADE;
+
 
 CREATE TABLE playerstats (
     player_id INTEGER NOT NULL,
