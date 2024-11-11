@@ -48,5 +48,22 @@ and games.game_id in (
     AND playerstats.points < 15 )
 ;
 
+-- Select game date, result, and rebounds for Rudy Gobert where game location was at home
+select game_date, result, rebounds
+from games
+join playerstats on games.game_id = playerstats.game_id
+where games.location = 'HOME'
+and playerstats.player_id = '27'
+;
+
+
+-- Show how many games were won when the team was away and show Mike Conley's average assists from these games
+select count(game_date) as num_games, round(avg(assists), 2) as avg_assists
+from games
+join playerstats on games.game_id = playerstats.game_id
+where games.result = 'W'
+and games.location = 'AWAY'
+and playerstats.player_id = '10'
+;
 
 
