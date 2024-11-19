@@ -15,7 +15,8 @@ select round(avg(points), 2) as avg_points, round(avg(assists), 2) as avg_assist
 from kat_stats;
 
 select round(avg(points), 2) as avg_points, round(avg(assists), 2) as avg_assists, round(avg(rebounds), 2) as avg_rebounds
-from rudy_stats;
+from rudy_stats
+;
 
 
 -- Show game dates and all stats for games where Anthony Edwards scored more than 25 points
@@ -67,3 +68,18 @@ and playerstats.player_id = '10'
 ;
 
 
+-- Show counts for games won and games lost for home and away games
+select location, 
+count(case when result = 'W' then 1 else null end) as games_won,
+count(case when result = 'L' then 1 else null end) as games_lost
+from games
+where location = 'HOME'
+group by location
+UNION
+select location, 
+count(case when result = 'W' then 1 else null end) as games_won,
+count(case when result = 'L' then 1 else null end) as games_lost
+from games
+where location = 'AWAY'
+group by location
+;
