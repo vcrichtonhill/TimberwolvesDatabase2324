@@ -35,7 +35,7 @@ group by player.name, playerprofile.nickname
 order by avg_points DESC;
 
 
--- Select game date, player name, and points for Naz Reid when Anthony Edwards scored less than 15 points
+-- Select game date, player name, and points for Naz Reid when Karl Anthony Towns scored less than his average
 select game_date, name, points
 from games
 join playerstats on games.game_id = playerstats.game_id
@@ -45,8 +45,8 @@ and games.game_id in (
     select game_id
     from playerstats
     join player on playerstats.player_id = player.player_id
-    WHERE player.name = 'Anthony Edwards'
-    AND playerstats.points < 15 )
+    WHERE player.name = 'Karl-Anthony Towns'
+    AND playerstats.points < 20 )
 ;
 
 -- Select game date, result, and rebounds for Rudy Gobert where game location was at home

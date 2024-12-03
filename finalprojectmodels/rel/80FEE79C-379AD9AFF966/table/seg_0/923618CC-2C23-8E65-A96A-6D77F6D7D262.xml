@@ -32,17 +32,13 @@
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nationality" id="01C765EE-791F-23F3-1321-9D6C00C28E95">
+<Column name="nickname" id="AFEDA7B8-6503-213F-FF0E-FE124B5077EE">
 <createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:17:11 UTC</createdTime>
-<generatorID>946C29C8-7BF6-A2A2-83EB-7E2FF16F36D8</generatorID>
+<createdTime>2024-11-25 17:55:25 UTC</createdTime>
 <ownerDesignName>finalprojectmodels</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="hometown" id="5635A259-F857-B8DC-E592-D10B359B2CA1">
@@ -81,19 +77,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="handedness" id="9517750A-EB20-7BB9-DF26-9383EFD5F477">
-<createdBy>vcrich</createdBy>
-<createdTime>2024-11-05 00:17:11 UTC</createdTime>
-<generatorID>BC041994-1362-137D-C4DF-78C95A580B5F</generatorID>
-<ownerDesignName>finalprojectmodels</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
