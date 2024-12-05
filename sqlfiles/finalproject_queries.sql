@@ -49,6 +49,15 @@ and games.game_id in (
     AND playerstats.points < 20 )
 ;
 
+-- Select game date, player name, and points for Naz Reid when Karl Anthony Towns scored less than his average using views
+select game_date, name, points
+from naz_stats
+where game_id in (
+    select game_id
+    from kat_stats
+    WHERE points < 20 )
+;
+
 -- Select game date, result, and rebounds for Rudy Gobert where game location was at home
 select game_date, result, rebounds
 from games

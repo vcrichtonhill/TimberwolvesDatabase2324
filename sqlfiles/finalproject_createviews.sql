@@ -36,7 +36,7 @@ and name = 'Rudy Gobert'
 
 -- Karl-Anthony Towns stats
 create or replace view kat_stats as
-select name, points, assists, rebounds, game_date
+select name, points, assists, rebounds, game_date, games.game_id
 from player, playerstats, games
 where player.player_id = playerstats.player_id
 and games.game_id = playerstats.game_id
@@ -45,7 +45,7 @@ and name = 'Karl-Anthony Towns'
 
 -- Naz Reid stats
 create or replace view naz_stats as
-select name, points, assists, rebounds, game_date
+select name, points, assists, rebounds, game_date, games.game_id
 from player, playerstats, games
 where player.player_id = playerstats.player_id
 and games.game_id = playerstats.game_id
